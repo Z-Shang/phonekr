@@ -40,5 +40,6 @@ if((dp.value - Math.floor(dp.value)) > 0.5){
 dp.value=Math.ceil(dp.value);
 }else if((dp.value - Math.floor(dp.value)) < 0.5){
 dp.value=Math.floor(dp.value);
+calcpx();
 }
 }
